@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bc_bc"
+    android:padding="2dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -13,7 +15,7 @@
         android:layout_gravity="center"
         tools:context=".MainActivity">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="190dp"
             android:layout_height="wrap_content"
             android:text="Biodata Diri"
             android:layout_gravity="center_horizontal"
@@ -25,12 +27,16 @@
             android:id="@+id/edtNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/bc_text"
             android:hint="Nama"
             android:layout_margin="16dp"/>
         <Spinner
             android:id="@+id/jenisKelamin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/bc_text"
+            android:padding="10dp"
             android:layout_margin="16dp"
             android:entries="@array/jenis_kelamin"/>
 
@@ -38,12 +44,16 @@
             android:id="@+id/edtEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/bc_text"
+            android:padding="10dp"
             android:hint="Email"
             android:layout_margin="16dp"/>
         <EditText
             android:id="@+id/edtTelpon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/bc_text"
+            android:padding="10dp"
             android:hint="Telp"
             android:layout_margin="16dp"
             android:inputType="phone"/>
@@ -51,15 +61,17 @@
         <EditText
             android:id="@+id/edtAlamat"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bc_text"
             android:hint="Alamat"
+            android:padding="10dp"
             android:layout_margin="16dp"
             android:inputType="textMultiLine"/>
 
         <Button
             android:id="@+id/btnSimpan"
             android:layout_width="match_parent"
-            android:background="@drawable/bc_text"
+            android:background="@drawable/bc_butt"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:text="SIMPAN" />

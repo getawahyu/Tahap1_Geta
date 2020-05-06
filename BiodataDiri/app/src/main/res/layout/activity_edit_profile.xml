@@ -5,25 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bc_bc"
+    android:padding="2dp"
     tools:context=".EditProfileActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
         android:gravity="center_horizontal"
+        android:fontFamily="@font/antic"
+        android:textSize="30sp"
         android:text="Edit Profil"/>
     <EditText
         android:id="@+id/edtProfilName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:background="@drawable/bc_text"
+        android:padding="10dp"
         android:hint="Nama"/>
     <Button
         android:id="@+id/btnEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:background="@drawable/bc_butt"
         android:text="SIMPAN"/>
 
 </LinearLayout>

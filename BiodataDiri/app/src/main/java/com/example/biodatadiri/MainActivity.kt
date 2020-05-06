@@ -3,6 +3,7 @@ package com.example.biodatadiri
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.WindowManager
 import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.Spinner
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
         setContentView(R.layout.activity_main)
 
         setDataSpinnerGender()
@@ -54,7 +56,7 @@ class MainActivity : AppCompatActivity() {
             alamatI.isEmpty() -> edtAlamat.error = "Alamat wajib di isi"
 
             else -> {
-                tampilToast("Navigasi ke halaman profil")
+                tampilToast("Tersimpan")
                 goToProfileActivity()
             }
         }
