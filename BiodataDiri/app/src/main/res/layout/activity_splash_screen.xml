@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fece2f"
+    android:orientation="vertical"
+    tools:context=".splashScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:src="@drawable/person"
+        tools:layout_editor_absoluteX="80dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/bangers"
+        android:text="Biodata"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/textView1a"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_marginTop="-20dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:text="diri"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/antic"
+        android:text="Isi Biodata Diri dengan Benar"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteY="496dp" />
+</LinearLayout>

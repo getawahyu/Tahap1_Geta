@@ -13,7 +13,7 @@
         android:orientation="vertical"
         tools:context=".ProfilActivity">
         <TextView
-            android:id="@+id/tv_biodata"
+            android:id="@+id/biodata"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Biodata"
@@ -23,17 +23,17 @@
             android:fontFamily="casual"
             android:textStyle="bold"/>
         <ImageView
-            android:id="@+id/iv_foto"
+            android:id="@+id/foto"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/geta"
-            android:layout_below="@id/tv_biodata"
+            android:src="@drawable/person"
+            android:layout_below="@id/biodata"
             android:layout_centerHorizontal="true"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_below="@id/iv_foto">
+            android:layout_below="@id/foto">
             <LinearLayout
 
                 android:layout_width="match_parent"
